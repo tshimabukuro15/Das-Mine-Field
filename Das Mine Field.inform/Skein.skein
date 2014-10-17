@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x81e41c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x81e41c0" />
+  <item nodeId="node-0x81e41c0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Congratulations. you are now the district safety martial for Shady Oaks retirement district. This is where people put there insane old people. Seeing as you are the only competent individual on the block, you got stuck with the job. However, not everyone is happy with this situation. Mr. Schnitzel, your crazy neighbor from across the stream, is furious. He really wanted that job. In retaliation, he has used his retirement money to build several potato launchers in a field next to his house. You are currently cowering under your porch, your house, and all of the houses surrounding Mr. Schnitzel&apos;s, are all being bombarded by flying potatoes. Find a way out of here and stop Mr. Schnitzel&apos;s mad plan for neighborhood domination.
+
+Das Mine Field
+An Interactive Fiction by Ty Shimabukuro
+Release 1 / Serial number 141016 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Your porch
+This is your porch. Due to the veranda, it was the only part of your house that was safe from the potatoes. An umbrella stand sits by the door. Your yard is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">NO</temporary>
+    <children>
+      <child nodeId="node-0x81e4210" />
+    </children>
+  </item>
+  <item nodeId="node-0x81e4210">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x81e4260" />
+    </children>
+  </item>
+  <item nodeId="node-0x81e4260">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+yard
+This is your yard, located directly across the stream from Mr. Schnitzel&apos;s  field. It is currently littered with potatoes. Your porch is to the east, the street is to the south and Mr. Angl&apos;s yard is to the west.
+
+You can see a potato here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x81e42b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x81e42b0">
+    <command xml:space="preserve">take potato</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x81f90f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x81f90f0">
+    <command xml:space="preserve">take potato</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x81f9160" />
+    </children>
+  </item>
+  <item nodeId="node-0x81f9160">
+    <command xml:space="preserve">take another potatoe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x81f91d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x81f91d0">
+    <command xml:space="preserve">take another potato</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x8128180" />
+    </children>
+  </item>
+  <item nodeId="node-0x8128180">
+    <command xml:space="preserve">eat potato</command>
+    <result xml:space="preserve">That&apos;s plainly inedible.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+  </item>
+</Skein>
