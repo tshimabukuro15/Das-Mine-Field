@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x81e41c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1e89b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x81e41c0" />
-  <item nodeId="node-0x81e41c0">
+  <activeNode nodeId="node-0x1e89b0" />
+  <item nodeId="node-0x1e89b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -21,10 +21,10 @@ This is your porch. Due to the veranda, it was the only part of your house that 
     <changed>NO</changed>
     <temporary score="26">NO</temporary>
     <children>
-      <child nodeId="node-0x81e4210" />
+      <child nodeId="node-0x1e8a00" />
     </children>
   </item>
-  <item nodeId="node-0x81e4210">
+  <item nodeId="node-0x1e8a00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -33,10 +33,10 @@ This is your porch. Due to the veranda, it was the only part of your house that 
     <changed>NO</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x81e4260" />
+      <child nodeId="node-0x1e8a50" />
     </children>
   </item>
-  <item nodeId="node-0x81e4260">
+  <item nodeId="node-0x1e8a50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 yard
@@ -49,10 +49,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x81e42b0" />
+      <child nodeId="node-0x1e8aa0" />
     </children>
   </item>
-  <item nodeId="node-0x81e42b0">
+  <item nodeId="node-0x1e8aa0">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">Taken.
 
@@ -61,10 +61,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x81f90f0" />
+      <child nodeId="node-0x1e8b50" />
     </children>
   </item>
-  <item nodeId="node-0x81f90f0">
+  <item nodeId="node-0x1e8b50">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">You already have that.
 
@@ -73,10 +73,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x81f9160" />
+      <child nodeId="node-0x1e8bc0" />
     </children>
   </item>
-  <item nodeId="node-0x81f9160">
+  <item nodeId="node-0x1e8bc0">
     <command xml:space="preserve">take another potatoe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -85,10 +85,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x81f91d0" />
+      <child nodeId="node-0x1e8c30" />
     </children>
   </item>
-  <item nodeId="node-0x81f91d0">
+  <item nodeId="node-0x1e8c30">
     <command xml:space="preserve">take another potato</command>
     <result xml:space="preserve">You already have that.
 
@@ -97,10 +97,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x8128180" />
+      <child nodeId="node-0x1e8d20" />
     </children>
   </item>
-  <item nodeId="node-0x8128180">
+  <item nodeId="node-0x1e8d20">
     <command xml:space="preserve">eat potato</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
