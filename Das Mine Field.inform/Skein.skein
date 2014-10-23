@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1e89b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x25abe0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1e89b0" />
-  <item nodeId="node-0x1e89b0">
+  <activeNode nodeId="node-0x25abe0" />
+  <item nodeId="node-0x25abe0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-Congratulations. you are now the district safety martial for Shady Oaks retirement district. This is where people put there insane old people. Seeing as you are the only competent individual on the block, you got stuck with the job. However, not everyone is happy with this situation. Mr. Schnitzel, your crazy neighbor from across the stream, is furious. He really wanted that job. In retaliation, he has used his retirement money to build several potato launchers in a field next to his house. You are currently cowering under your porch, your house, and all of the houses surrounding Mr. Schnitzel&apos;s, are all being bombarded by flying potatoes. Find a way out of here and stop Mr. Schnitzel&apos;s mad plan for neighborhood domination.
+Congratulations. you are now the district safety martial for Shady Oaks retirement district. This is where people put there insane old people when they don&apos;t want them anymore. Seeing as you are the only competent individual on the block, you got stuck with the job. However, not everyone is happy with this situation. Schnitzel, your crazy neighbor from across the stream, is furious. He really wanted that job. In retaliation, he has used his retirement money to build several potato launchers in a field next to his house. You are currently cowering under your porch, your house, and all of the houses surrounding Mr. Schnitzel&apos;s, are all being bombarded by flying potatoes. Find a way out of here and stop Schnitzel&apos;s mad plan for neighborhood domination.
 
 Das Mine Field
 An Interactive Fiction by Ty Shimabukuro
-Release 1 / Serial number 141016 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141022 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Your porch
-This is your porch. Due to the veranda, it was the only part of your house that was safe from the potatoes. An umbrella stand sits by the door. Your yard is to the west.
+This is your dinky wooden porch. Due to the veranda, it was the only part of your house that was safe from the raining potatoes.  A vase full of umbrellas sits by the door. Your yard is to the west.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="26">NO</temporary>
     <children>
-      <child nodeId="node-0x1e8a00" />
+      <child nodeId="node-0x25ac30" />
     </children>
   </item>
-  <item nodeId="node-0x1e8a00">
+  <item nodeId="node-0x25ac30">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -33,10 +33,10 @@ This is your porch. Due to the veranda, it was the only part of your house that 
     <changed>NO</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x1e8a50" />
+      <child nodeId="node-0x25ac80" />
     </children>
   </item>
-  <item nodeId="node-0x1e8a50">
+  <item nodeId="node-0x25ac80">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 yard
@@ -49,10 +49,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x1e8aa0" />
+      <child nodeId="node-0x25acd0" />
     </children>
   </item>
-  <item nodeId="node-0x1e8aa0">
+  <item nodeId="node-0x25acd0">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">Taken.
 
@@ -61,10 +61,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x1e8b50" />
+      <child nodeId="node-0x25ad60" />
     </children>
   </item>
-  <item nodeId="node-0x1e8b50">
+  <item nodeId="node-0x25ad60">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">You already have that.
 
@@ -73,10 +73,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x1e8bc0" />
+      <child nodeId="node-0x25add0" />
     </children>
   </item>
-  <item nodeId="node-0x1e8bc0">
+  <item nodeId="node-0x25add0">
     <command xml:space="preserve">take another potatoe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -85,10 +85,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x1e8c30" />
+      <child nodeId="node-0x25ae40" />
     </children>
   </item>
-  <item nodeId="node-0x1e8c30">
+  <item nodeId="node-0x25ae40">
     <command xml:space="preserve">take another potato</command>
     <result xml:space="preserve">You already have that.
 
@@ -97,10 +97,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x1e8d20" />
+      <child nodeId="node-0x264100" />
     </children>
   </item>
-  <item nodeId="node-0x1e8d20">
+  <item nodeId="node-0x264100">
     <command xml:space="preserve">eat potato</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
