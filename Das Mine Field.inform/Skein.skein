@@ -1,30 +1,1252 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x25abe0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x3ba900" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x25abe0" />
-  <item nodeId="node-0x25abe0">
+  <activeNode nodeId="node-0x11bb2d70" />
+  <item nodeId="node-0x3ba900">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-Congratulations. you are now the district safety martial for Shady Oaks retirement district. This is where people put there insane old people when they don&apos;t want them anymore. Seeing as you are the only competent individual on the block, you got stuck with the job. However, not everyone is happy with this situation. Schnitzel, your crazy neighbor from across the stream, is furious. He really wanted that job. In retaliation, he has used his retirement money to build several potato launchers in a field next to his house. You are currently cowering under your porch, your house, and all of the houses surrounding Mr. Schnitzel&apos;s, are all being bombarded by flying potatoes. Find a way out of here and stop Schnitzel&apos;s mad plan for neighborhood domination.
+Congratulations. you are now the district safety martial for Shady Oaks retirement district. This is where people put there old people when they don&apos;t want them anymore. Seeing as you are the only competent individual on the block, you got stuck with the job. However, not everyone is happy with this situation. Schnitzel, your crazy neighbor from across the stream, is furious. He really wanted that job apparently. In retaliation, he has used his retirement fund to build several automated potato launchers in a field next to his house. You are currently cowering under your porch. Your house and all of the houses surrounding Mr. Schnitzel&apos;s, are all being bombarded by flying potatoes. In the midst of the spudtacular air raid find a way out of here and get rid of those potato launchers. Move forward and stop Schnitzel&apos;s mad plan for neighborhood domination.
 
 Das Mine Field
 An Interactive Fiction by Ty Shimabukuro
-Release 1 / Serial number 141022 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141024 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Your porch
-This is your dinky wooden porch. Due to the veranda, it was the only part of your house that was safe from the raining potatoes.  A vase full of umbrellas sits by the door. Your yard is to the west.
+This is your dinky wooden porch. Due to the veranda, it was the only part of your house that was safe from the raining potatoes. You ran here as soon as the spuds went flying. A vase full of umbrellas sits by the door. Your yard is to the west.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="26">NO</temporary>
+    <temporary score="112">NO</temporary>
     <children>
-      <child nodeId="node-0x25ac30" />
+      <child nodeId="node-0x37c070" />
+      <child nodeId="node-0x7eda620" />
+      <child nodeId="node-0x15646760" />
+      <child nodeId="node-0x7e6aec0" />
+      <child nodeId="node-0x1b3a02a0" />
+      <child nodeId="node-0xe4e8ff0" />
     </children>
   </item>
-  <item nodeId="node-0x25ac30">
+  <item nodeId="node-0xe4e8ff0">
+    <command xml:space="preserve">x porch</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c5499b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c5499b0">
+    <command xml:space="preserve">x veranda</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x12adea90" />
+    </children>
+  </item>
+  <item nodeId="node-0x12adea90">
+    <command xml:space="preserve">x vase</command>
+    <result xml:space="preserve">A pretty vase full of umbrellas.
+
+In the vase is an umbrella.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c5b93f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c5b93f0">
+    <command xml:space="preserve">x umbrellas</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2b0b20" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2b0b20">
+    <command xml:space="preserve">take umbrella</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe487170" />
+    </children>
+  </item>
+  <item nodeId="node-0xe487170">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Your porch
+This is your dinky wooden porch. Due to the veranda, it was the only part of your house that was safe from the raining potatoes. You ran here as soon as the spuds went flying. A vase full of umbrellas sits by the door. Your yard is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd28aaf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd28aaf0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  an umbrella
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2ec820" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2ec820">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+backyard
+This is your yard, located directly across the stream from Mr. Schnitzel&apos;s  field. It is currently littered with potatoes. Your porch is to the east, the street is to the south and Mr. Angl&apos;s yard is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe497fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe497fa0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Your porch
+This is your dinky wooden porch. Due to the veranda, it was the only part of your house that was safe from the raining potatoes. You ran here as soon as the spuds went flying. A vase full of umbrellas sits by the door. Your yard is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe411b00" />
+    </children>
+  </item>
+  <item nodeId="node-0xe411b00">
+    <command xml:space="preserve">drop umbrella</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x15684300" />
+    </children>
+  </item>
+  <item nodeId="node-0x15684300">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Are you sure? There are too many potatoes. I don&apos;t think you can make it.
+</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x7ed1ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7ed1ab0">
+    <command xml:space="preserve">take umbrella</command>
+    <result xml:space="preserve">Please answer yes or no.&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd23fb00" />
+    </children>
+  </item>
+  <item nodeId="node-0xd23fb00">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">
+
+
+    *** A potato mashes into your face. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2dbc10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2dbc10">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Your porch
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd215680" />
+    </children>
+  </item>
+  <item nodeId="node-0xd215680">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe484e90" />
+    </children>
+  </item>
+  <item nodeId="node-0xe484e90">
+    <command xml:space="preserve">take umbrella</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd274b30" />
+    </children>
+  </item>
+  <item nodeId="node-0xd274b30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+backyard
+This is your yard, located directly across the stream from Mr. Schnitzel&apos;s  field. It is currently littered with potatoes. Your porch is to the east, the street is to the south and Mr. Angl&apos;s yard is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd202510" />
+    </children>
+  </item>
+  <item nodeId="node-0xd202510">
+    <command xml:space="preserve">x potatoes</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2e56d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2e56d0">
+    <command xml:space="preserve">take potatoes</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe43c1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe43c1c0">
+    <command xml:space="preserve">x potatoe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd221350" />
+    </children>
+  </item>
+  <item nodeId="node-0xd221350">
+    <command xml:space="preserve">take potato</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe452520" />
+    </children>
+  </item>
+  <item nodeId="node-0xe452520">
+    <command xml:space="preserve">take potatoe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2bf2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2bf2c0">
+    <command xml:space="preserve">x stream</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x1567e8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1567e8f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+street
+This street heads west to the park and north to the bridge.
+
+You can see a stepladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x15363350" />
+    </children>
+  </item>
+  <item nodeId="node-0x15363350">
+    <command xml:space="preserve">x stepladder</command>
+    <result xml:space="preserve">Who throws out a stepladder? These things never break.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4c0220" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4c0220">
+    <command xml:space="preserve">take stepladder</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a167d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a167d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+park
+A huge tree takes up the south end of the park. Many things have been lost in said tree. The crazy cat lady loves comes here on her off time.
+
+On the tree is a locket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd288280" />
+    </children>
+  </item>
+  <item nodeId="node-0xd288280">
+    <command xml:space="preserve">x locket</command>
+    <result xml:space="preserve">This must be the crazy cat lady&apos;s fabled locket. I wonder if she actually threw cats at it? She might give you something nice in return for this.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd28ea20" />
+    </children>
+  </item>
+  <item nodeId="node-0xd28ea20">
+    <command xml:space="preserve">take locket</command>
+    <result xml:space="preserve">You can&apos;t reach the locket, as the tree is too high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd26fea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd26fea0">
+    <command xml:space="preserve">x crazy cat lady</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd23a3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd23a3a0">
+    <command xml:space="preserve">x tree</command>
+    <result xml:space="preserve">This tree is shockingly tall, but it is also extremely thin and wobbles if you rock it. You see an object stuck on a high branch. Local legend has it that the crazy cat lady throws cats up into the tree to try knock something out of it. She has a very good throwing arm.
+
+On the tree is a locket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4d5aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4d5aa0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">park
+A huge tree takes up the south end of the park. Many things have been lost in said tree. The crazy cat lady loves comes here on her off time.
+
+On the tree is a locket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4beaf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4beaf0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2876a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2876a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c50b7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c50b7a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+street
+This street heads west to the park and north to the bridge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x15638860" />
+    </children>
+  </item>
+  <item nodeId="node-0x15638860">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+backyard
+This is your yard, located directly across the stream from Mr. Schnitzel&apos;s  field. It is currently littered with potatoes. Your porch is to the east, the street is to the south and Mr. Angl&apos;s yard is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd210140" />
+    </children>
+  </item>
+  <item nodeId="node-0xd210140">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+street
+This street heads west to the park and north to the bridge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xc5aab30" />
+    </children>
+  </item>
+  <item nodeId="node-0xc5aab30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+park
+A huge tree takes up the south end of the park. Many things have been lost in said tree. The crazy cat lady loves comes here on her off time.
+
+On the tree is a locket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe473a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xe473a60">
+    <command xml:space="preserve">x tree</command>
+    <result xml:space="preserve">This tree is shockingly tall, but it is also extremely thin and wobbles if you rock it. You see an object stuck on a high branch. Local legend has it that the crazy cat lady throws cats up into the tree to try knock something out of it. She has a very good throwing arm.
+
+On the tree is a locket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd267420" />
+    </children>
+  </item>
+  <item nodeId="node-0xd267420">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x153cf6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x153cf6f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd26e390" />
+    </children>
+  </item>
+  <item nodeId="node-0xd26e390">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+street
+This street heads west to the park and north to the bridge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xc592790" />
+    </children>
+  </item>
+  <item nodeId="node-0xc592790">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+backyard
+This is your yard, located directly across the stream from Mr. Schnitzel&apos;s  field. It is currently littered with potatoes. Your porch is to the east, the street is to the south and Mr. Angl&apos;s yard is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x15651070" />
+    </children>
+  </item>
+  <item nodeId="node-0x15651070">
+    <command xml:space="preserve">northwest</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4a6e80" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4a6e80">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x157abcc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x157abcc0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+street
+This street heads west to the park and north to the bridge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd231400" />
+    </children>
+  </item>
+  <item nodeId="node-0xd231400">
+    <command xml:space="preserve">northwest</command>
+    <result xml:space="preserve">
+bridge
+This bridge crosses the stream by your house. You are next to enemy territory. A stream flows underneath. Mr. Schnitzel&apos;s house is to the east, the crazy cat lady&apos;s house is to the North East, and the street is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe488040" />
+    </children>
+  </item>
+  <item nodeId="node-0xe488040">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+crazy cat lady&apos;s house
+The house of the crazy cat lady. *Cue Lightning* The door was unlocked, so you headed inside. It&apos;s messy in here. The crazy cat lady is nowhere to be seen She might be elsewhere in the house. You&apos;d better not make any loud noises lest you summon her and incur her wrath.
+
+Creeping out of the shadows the crazy cat lady appears.
+
+You can also see Cats here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe46b470" />
+    </children>
+  </item>
+  <item nodeId="node-0xe46b470">
+    <command xml:space="preserve">x cats</command>
+    <result xml:space="preserve">There are so many cats. You can&apos;t even count them all. Let&apos;s see 1,2,3... stop wasting time.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe408010" />
+    </children>
+  </item>
+  <item nodeId="node-0xe408010">
+    <command xml:space="preserve"> x crazy cat lady</command>
+    <result xml:space="preserve">The crazy cat lady, the most feared creature in the neighborhood. You are not sure if you can trust her.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2552d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2552d0">
+    <command xml:space="preserve">talk to crazy cat lady</command>
+    <result xml:space="preserve">Vat do you vant?!.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x156a37a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x156a37a0">
+    <command xml:space="preserve">ask about locket</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe421a70" />
+    </children>
+  </item>
+  <item nodeId="node-0xe421a70">
+    <command xml:space="preserve">ask crazy cat lady about locket</command>
+    <result xml:space="preserve">What locket?! I have not locket?! Locket is still stuck on tree! Stay away from locket, it is mine!.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd228280" />
+    </children>
+  </item>
+  <item nodeId="node-0xd228280">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Das Mine Field
+Schnitzel&apos;s field. A worn out sign reading Das Mine Field hangs on the fence. Legend has it that back when he was younger, Mr. Schnitzel hid dozens of landmines on the field for no apparent reason. The slightest of electric shocks coud set them off. The three potato launchers are facing towards your house, Angls, and the cat lady&apos;s unmanned.
+
+You can see a backdoor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd213c80" />
+    </children>
+  </item>
+  <item nodeId="node-0xd213c80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+crazy cat lady&apos;s house
+The house of the crazy cat lady. *Cue Lightning* The door was unlocked, so you headed inside. It&apos;s messy in here. The crazy cat lady is nowhere to be seen She might be elsewhere in the house. You&apos;d better not make any loud noises lest you summon her and incur her wrath.
+
+Creeping out of the shadows the crazy cat lady appears.
+
+You can also see Cats here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2d85f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2d85f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd22d2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd22d2d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4be680" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4be680">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+bridge
+This bridge crosses the stream by your house. You are next to enemy territory. A stream flows underneath. Mr. Schnitzel&apos;s house is to the east, the crazy cat lady&apos;s house is to the North East, and the street is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2aa210" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2aa210">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Schnitzel&apos;s house
+Mr. Schnitzel&apos;s house, the citidel of evil. It smells of potatoes and death. Mr. Schnitzel is pacing around muttering to himself whilst holding a potato gun. You should probably leave before he notices you. The bridge is to the west.
+
+Schnitzel is taking a break at a table drinking coffee.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4a4be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4a4be0">
+    <command xml:space="preserve">x schnitzel</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd264200" />
+    </children>
+  </item>
+  <item nodeId="node-0xd264200">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd204d10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd204d10">
+    <command xml:space="preserve">x coffee</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c5a21b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c5a21b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd21d5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd21d5c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+bridge
+This bridge crosses the stream by your house. You are next to enemy territory. A stream flows underneath. Mr. Schnitzel&apos;s house is to the east, the crazy cat lady&apos;s house is to the North East, and the street is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4976e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4976e0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+crazy cat lady&apos;s house
+The house of the crazy cat lady. *Cue Lightning* The door was unlocked, so you headed inside. It&apos;s messy in here. The crazy cat lady is nowhere to be seen She might be elsewhere in the house. You&apos;d better not make any loud noises lest you summon her and incur her wrath.
+
+Creeping out of the shadows the crazy cat lady appears.
+
+You can also see Cats here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4ad010" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4ad010">
+    <command xml:space="preserve">take cats</command>
+    <result xml:space="preserve">You don&apos;t want the cat.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4a3040" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4a3040">
+    <command xml:space="preserve">take cat</command>
+    <result xml:space="preserve">I don&apos;t suppose the crazy cat lady would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x157b1900" />
+    </children>
+  </item>
+  <item nodeId="node-0x157b1900">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a stepladder
+  an umbrella
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe43e320" />
+    </children>
+  </item>
+  <item nodeId="node-0xe43e320">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+bridge
+This bridge crosses the stream by your house. You are next to enemy territory. A stream flows underneath. Mr. Schnitzel&apos;s house is to the east, the crazy cat lady&apos;s house is to the North East, and the street is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd281430" />
+    </children>
+  </item>
+  <item nodeId="node-0xd281430">
+    <command xml:space="preserve">x stream</command>
+    <result xml:space="preserve">The water makes a serene babbling sound below. You used to play down by the river as a kid.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c5f7810" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c5f7810">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+river
+This river is a hidden little shortcut between the bridge, Das Mine field and your backyard. The river is below the bridge. The river is south of Das Mine Field and North of the backyard.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe417c40" />
+    </children>
+  </item>
+  <item nodeId="node-0xe417c40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Das Mine Field
+Schnitzel&apos;s field. A worn out sign reading Das Mine Field hangs on the fence. Legend has it that back when he was younger, Mr. Schnitzel hid dozens of landmines on the field for no apparent reason. The slightest of electric shocks coud set them off. The three potato launchers are facing towards your house, Angls, and the cat lady&apos;s unmanned.
+
+You can see a backdoor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c5bdd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c5bdd80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+river
+This river is a hidden little shortcut between the bridge, Das Mine field and your backyard. The river is below the bridge. The river is south of Das Mine Field and North of the backyard.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2ba480" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2ba480">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4ebee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4ebee0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xe40ad10" />
+    </children>
+  </item>
+  <item nodeId="node-0xe40ad10">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f1489c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f1489c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2d2040" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2d2040">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">river
+This river is a hidden little shortcut between the bridge, Das Mine field and your backyard. The river is below the bridge. The river is south of Das Mine Field and North of the backyard.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c042c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c042c00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2e4b50" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2e4b50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b3a02a0">
+    <command xml:space="preserve">take umbrella</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0x7e1fc10" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e1fc10">
+    <command xml:space="preserve">x veranda</command>
+    <result xml:space="preserve">This veranda is the only thing between your head and a proper mashing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4dd330" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4dd330">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Your porch
+This is your dinky wooden porch. Due to the veranda, it was the only part of your house that was safe from the raining potatoes. You ran here as soon as the spuds went flying. A vase full of umbrellas sits by the door. Your yard is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0xd221410" />
+    </children>
+  </item>
+  <item nodeId="node-0xd221410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+backyard
+This is your yard, located directly across the stream from Mr. Schnitzel&apos;s  field. It is currently littered with potatoes. Your porch is to the east, the street is to the south and Mr. Angl&apos;s yard is to the west.
+
+You can see a potatoes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0x157ce150" />
+    </children>
+  </item>
+  <item nodeId="node-0x157ce150">
+    <command xml:space="preserve">x potatoes</command>
+    <result xml:space="preserve">You see nothing special about the potatoes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4ce420" />
+    </children>
+  </item>
+  <item nodeId="node-0xe4ce420">
+    <command xml:space="preserve">take potatoes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0xe409d30" />
+    </children>
+  </item>
+  <item nodeId="node-0xe409d30">
+    <command xml:space="preserve">x potatoes</command>
+    <result xml:space="preserve">You see nothing special about the potatoes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0xe47c850" />
+    </children>
+  </item>
+  <item nodeId="node-0xe47c850">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0xe411ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe411ee0">
+    <command xml:space="preserve">x potatoe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0x11bb2d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x11bb2d70">
+    <command xml:space="preserve">x potatoes</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="111">YES</temporary>
+  </item>
+  <item nodeId="node-0x7e6aec0">
+    <command xml:space="preserve">x vas</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0xe46c7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe46c7b0">
+    <command xml:space="preserve">x vase</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x15646760">
+    <command xml:space="preserve">x vase</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x7eda620">
+    <command xml:space="preserve">x umbrellas</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b3a8fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b3a8fa0">
+    <command xml:space="preserve">x vase</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x37c070">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -33,10 +1255,10 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>NO</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x25ac80" />
+      <child nodeId="node-0x37c0c0" />
     </children>
   </item>
-  <item nodeId="node-0x25ac80">
+  <item nodeId="node-0x37c0c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 yard
@@ -49,10 +1271,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x25acd0" />
+      <child nodeId="node-0x37c110" />
     </children>
   </item>
-  <item nodeId="node-0x25acd0">
+  <item nodeId="node-0x37c110">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">Taken.
 
@@ -61,10 +1283,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x25ad60" />
+      <child nodeId="node-0x3c3a90" />
     </children>
   </item>
-  <item nodeId="node-0x25ad60">
+  <item nodeId="node-0x3c3a90">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">You already have that.
 
@@ -73,10 +1295,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x25add0" />
+      <child nodeId="node-0x3c3b00" />
     </children>
   </item>
-  <item nodeId="node-0x25add0">
+  <item nodeId="node-0x3c3b00">
     <command xml:space="preserve">take another potatoe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -85,10 +1307,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x25ae40" />
+      <child nodeId="node-0x3c3b70" />
     </children>
   </item>
-  <item nodeId="node-0x25ae40">
+  <item nodeId="node-0x3c3b70">
     <command xml:space="preserve">take another potato</command>
     <result xml:space="preserve">You already have that.
 
@@ -97,10 +1319,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x264100" />
+      <child nodeId="node-0x3c3c60" />
     </children>
   </item>
-  <item nodeId="node-0x264100">
+  <item nodeId="node-0x3c3c60">
     <command xml:space="preserve">eat potato</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
