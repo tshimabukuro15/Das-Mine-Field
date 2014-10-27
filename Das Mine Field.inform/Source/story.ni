@@ -17,11 +17,13 @@ Instead of going to the backyard when the player does not have the umbrella:
 	if player consents,
 		end the story finally saying "A potato mashes into your face." [Code from Get That Cat.]
 		
-The backyard is west of the porch. The backyard is east of Angl's yard. The backyard is north of the street. The backyard is a room. "This is your yard, located directly across the stream from Mr. Schnitzel's  field. It is currently littered with potatoes. Your porch is to the east, the street is to the south and Mr. Angl's yard is to the west."
+The backyard is west of the porch. The backyard is east of Angl's yard. The backyard is north of the street. The backyard is a room. "This is your yard, located directly across the brooke from Mr. Schnitzel's  field. It is currently littered with potatoes. Your porch is to the east, the street is to the south and Mr. Angl's yard is to the west."
 
-The potatoes are a thing in the backyard. There are multiple potatoes.  The description is "This potato did not splat on impact. It is defective to not have splated. It is worthless."
+The brooke is scenery. the brooke is in the backyard. The description is "The water gurgles down."
 
-Understand "potatoe", "the potatoe", and "the potatoes" as "[potatoes]"
+The potato is a thing in the backyard. The description is "This potato did not splat on impact. It is defective to not have splated. It is worthless."
+
+Understand "potato", "the potato", and "the potatoes" as "[potatoes]"
 
  Angl's yard is a room. Angl's yard is west of the backyard. The description is "Angl's yard and house are also covered in potatoes. Casualties of war. You can hear him silently muttering to himself from a safe spot on the second floor."
 
@@ -79,13 +81,13 @@ The stream is scenery in the bridge. The description is "The water makes a seren
 
 Schnitzel's house is a room. Schnitzel's house is east of the bridge.  The description is "Mr. Schnitzel's house, the citidel of evil. It smells of potatoes and death. Mr. Schnitzel is pacing around muttering to himself whilst holding a potato gun. You should probably leave before he notices you. The bridge is to the west."
 
-The crazy cat lady's house is a room. The crazy cat lady's house is north of Das Mine Field and northeast of the bridge. The description is "The house of the crazy cat lady. *Cue Lightning* The door was unlocked, so you headed inside. It's messy in here. The crazy cat lady is nowhere to be seen She might be elsewhere in the house. You'd better not make any loud noises lest you summon her and incur her wrath." The crazy cat lady is carrying a rusty key.
+The crazy cat lady's house is a room. The crazy cat lady's house is north of the backdoor and northeast of the bridge. The description is "The house of the crazy cat lady. *Cue Lightning* The door was unlocked, so you headed inside. It's messy in here. The the bridge is to the southwest and the backdoor is to the south." The crazy cat lady is carrying a rusty key.
 
-The backdoor is south of the crazy cat ladies house and west of Das Mine Field. The backdoor is a door. The backdoor is lockable and locked. The description is "This door is extremely old and weathered."
+The backdoor is south of the crazy cat ladies house and north of Das Mine Field. The backdoor is a door. The backdoor is lockable and locked. The description is "This door is extremely old and weathered."
 
 The crazy cat lady is holding the rusty key. Rusty key is a thing. The rusty key unlocks the backdoor. The description is "It's a rusty key."
 
-Das Mine Field is a room. Das Mine Field is south of the crazy cat lady's house and east of Schnitzel's house. The description is "Schnitzel's field. A worn out sign reading Das Mine Field hangs on the fence. Legend has it that back when he was younger, Mr. Schnitzel hid dozens of landmines on the field for no apparent reason. The slightest of electric shocks coud set them off. The three potato launchers are facing towards your house, Angls, and the cat lady's unmanned."
+Das Mine Field is a room. Das Mine Field is south of the backdoor and east of Schnitzel's house. The description is "Schnitzel's field. A worn out sign reading Das Mine Field hangs on the fence. Legend has it that back when he was younger, Mr. Schnitzel hid dozens of landmines on the field for no apparent reason. The slightest of electric shocks coud set them off. The three potato launchers are facing towards your house, Angls, and the cat lady's unmanned."
 
 The potato launcher is scenery. The description is "A silent sentry. An automated artillery unit designed with the sole purpose of raining hot spuddy death unto all those who stand in its way. The launching mechanism is powered by a giant rubber band."
 
@@ -135,6 +137,8 @@ Understand "cats", "the cats", and "her cats" as "[cats]"
 Instead of asking the crazy cat lady about "[cats]":
 say "Cats is good, yes. Yes cats is good for everything yes?"
 
+Understand "ask" as  "[asking]"
+
 Instead of giving the locket to the crazy cat lady:
 say "The cat lady smiles, snatches the locket from you, and walks off. She soon returns and hands you a key."; move rusty key to player;
 remove the locket from play.
@@ -152,7 +156,7 @@ After talking to Schnitzel:
 	if player is in Schnitzel's house:
 		end the story finally saying "Oh no, Mr. Schnitzel noticed you. He's approaching you brandishing his potato gun." [Code from Tonic]
 		
-		The river is a room. The river is below the bridge. The river is south of Das Mine Field and southwest of the backyard. The description is "This river is a hidden little shortcut between the bridge, Das Mine field and your backyard. The river is below the bridge. The river is south of Das Mine Field and North of the backyard."
+		The river is a room. The river is below the bridge. The river is south of Das Mine Field and northwest of the backyard. The description is "This river is a hidden little shortcut between the bridge, Das Mine field and your backyard. The river is below the bridge. The river is south of Das Mine Field and Northwest of the backyard."
 
 An every turn rule:
 	if the player is carrying the rubber band:
