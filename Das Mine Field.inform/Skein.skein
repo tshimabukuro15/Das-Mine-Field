@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x3ba900" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x755be90" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x3ba900" />
-  <item nodeId="node-0x3ba900">
+  <activeNode nodeId="node-0x755be90" />
+  <item nodeId="node-0x755be90">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -21,16 +21,16 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>NO</changed>
     <temporary score="141">NO</temporary>
     <children>
-      <child nodeId="node-0x37c070" />
-      <child nodeId="node-0x1b3a02a0" />
-      <child nodeId="node-0xe4e8ff0" />
-      <child nodeId="node-0x7eda620" />
-      <child nodeId="node-0x15646760" />
-      <child nodeId="node-0x7e6aec0" />
-      <child nodeId="node-0x14cded40" />
+      <child nodeId="node-0x75dcc10" />
+      <child nodeId="node-0x75dc4a0" />
+      <child nodeId="node-0x75da2b0" />
+      <child nodeId="node-0x75da110" />
+      <child nodeId="node-0x75da0c0" />
+      <child nodeId="node-0x75da020" />
+      <child nodeId="node-0x755bfe0" />
     </children>
   </item>
-  <item nodeId="node-0x14cded40">
+  <item nodeId="node-0x755bfe0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Are you sure? There are too many potatoes. I don&apos;t think you can make it.
 </result>
@@ -38,10 +38,10 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>YES</changed>
     <temporary score="141">YES</temporary>
     <children>
-      <child nodeId="node-0x1c58b060" />
+      <child nodeId="node-0x755c030" />
     </children>
   </item>
-  <item nodeId="node-0x1c58b060">
+  <item nodeId="node-0x755c030">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">
 &gt;</result>
@@ -49,10 +49,10 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>YES</changed>
     <temporary score="141">YES</temporary>
     <children>
-      <child nodeId="node-0x14ce8990" />
+      <child nodeId="node-0x755c080" />
     </children>
   </item>
-  <item nodeId="node-0x14ce8990">
+  <item nodeId="node-0x755c080">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">(the umbrella)
 Taken.
@@ -62,10 +62,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="141">YES</temporary>
     <children>
-      <child nodeId="node-0x1b3352a0" />
+      <child nodeId="node-0x755c0f0" />
     </children>
   </item>
-  <item nodeId="node-0x1b3352a0">
+  <item nodeId="node-0x755c0f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 backyard
@@ -78,10 +78,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="141">YES</temporary>
     <children>
-      <child nodeId="node-0x14b0e670" />
+      <child nodeId="node-0x755c160" />
     </children>
   </item>
-  <item nodeId="node-0x14b0e670">
+  <item nodeId="node-0x755c160">
     <command xml:space="preserve">x potato</command>
     <result xml:space="preserve">This potato did not splat on impact. It is defective to not have splated. It is worthless.
 
@@ -90,10 +90,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="141">YES</temporary>
     <children>
-      <child nodeId="node-0x1f160a30" />
+      <child nodeId="node-0x755c1d0" />
     </children>
   </item>
-  <item nodeId="node-0x1f160a30">
+  <item nodeId="node-0x755c1d0">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">Taken.
 
@@ -102,7 +102,7 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="140">YES</temporary>
   </item>
-  <item nodeId="node-0x7e6aec0">
+  <item nodeId="node-0x75da020">
     <command xml:space="preserve">x vas</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -111,10 +111,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0xe46c7b0" />
+      <child nodeId="node-0x75da070" />
     </children>
   </item>
-  <item nodeId="node-0xe46c7b0">
+  <item nodeId="node-0x75da070">
     <command xml:space="preserve">x vase</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -123,7 +123,7 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x15646760">
+  <item nodeId="node-0x75da0c0">
     <command xml:space="preserve">x vase</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -132,7 +132,7 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x7eda620">
+  <item nodeId="node-0x75da110">
     <command xml:space="preserve">x umbrellas</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -141,10 +141,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x1b3a8fa0" />
+      <child nodeId="node-0x75da180" />
     </children>
   </item>
-  <item nodeId="node-0x1b3a8fa0">
+  <item nodeId="node-0x75da180">
     <command xml:space="preserve">x vase</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -153,7 +153,7 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
   </item>
-  <item nodeId="node-0xe4e8ff0">
+  <item nodeId="node-0x75da2b0">
     <command xml:space="preserve">x porch</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -162,10 +162,10 @@ You can see a potato here.
     <changed>NO</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x1c5499b0" />
+      <child nodeId="node-0x755c260" />
     </children>
   </item>
-  <item nodeId="node-0x1c5499b0">
+  <item nodeId="node-0x755c260">
     <command xml:space="preserve">x veranda</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -174,10 +174,10 @@ You can see a potato here.
     <changed>NO</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x12adea90" />
+      <child nodeId="node-0x75da320" />
     </children>
   </item>
-  <item nodeId="node-0x12adea90">
+  <item nodeId="node-0x75da320">
     <command xml:space="preserve">x vase</command>
     <result xml:space="preserve">A pretty vase full of umbrellas.
 
@@ -188,10 +188,10 @@ In the vase is an umbrella.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x1c5b93f0" />
+      <child nodeId="node-0x75da390" />
     </children>
   </item>
-  <item nodeId="node-0x1c5b93f0">
+  <item nodeId="node-0x75da390">
     <command xml:space="preserve">x umbrellas</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -200,10 +200,10 @@ In the vase is an umbrella.
     <changed>NO</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2b0b20" />
+      <child nodeId="node-0x75da400" />
     </children>
   </item>
-  <item nodeId="node-0xd2b0b20">
+  <item nodeId="node-0x75da400">
     <command xml:space="preserve">take umbrella</command>
     <result xml:space="preserve">Taken.
 
@@ -212,10 +212,10 @@ In the vase is an umbrella.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe487170" />
+      <child nodeId="node-0x75da470" />
     </children>
   </item>
-  <item nodeId="node-0xe487170">
+  <item nodeId="node-0x75da470">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Your porch
 This is your dinky wooden porch. Due to the veranda, it was the only part of your house that was safe from the raining potatoes. You ran here as soon as the spuds went flying. A vase full of umbrellas sits by the door. Your yard is to the west.
@@ -225,10 +225,10 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd28aaf0" />
+      <child nodeId="node-0x75da4e0" />
     </children>
   </item>
-  <item nodeId="node-0xd28aaf0">
+  <item nodeId="node-0x75da4e0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   an umbrella
@@ -238,10 +238,10 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2ec820" />
+      <child nodeId="node-0x75da550" />
     </children>
   </item>
-  <item nodeId="node-0xd2ec820">
+  <item nodeId="node-0x75da550">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 backyard
@@ -252,10 +252,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe497fa0" />
+      <child nodeId="node-0x75da1f0" />
     </children>
   </item>
-  <item nodeId="node-0xe497fa0">
+  <item nodeId="node-0x75da1f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Your porch
@@ -266,10 +266,10 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe411b00" />
+      <child nodeId="node-0x75da240" />
     </children>
   </item>
-  <item nodeId="node-0xe411b00">
+  <item nodeId="node-0x75da240">
     <command xml:space="preserve">drop umbrella</command>
     <result xml:space="preserve">Dropped.
 
@@ -278,10 +278,10 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x15684300" />
+      <child nodeId="node-0x75da740" />
     </children>
   </item>
-  <item nodeId="node-0x15684300">
+  <item nodeId="node-0x75da740">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Are you sure? There are too many potatoes. I don&apos;t think you can make it.
 </result>
@@ -289,20 +289,20 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x7ed1ab0" />
+      <child nodeId="node-0x75da7b0" />
     </children>
   </item>
-  <item nodeId="node-0x7ed1ab0">
+  <item nodeId="node-0x75da7b0">
     <command xml:space="preserve">take umbrella</command>
     <result xml:space="preserve">Please answer yes or no.&gt; </result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd23fb00" />
+      <child nodeId="node-0x75da820" />
     </children>
   </item>
-  <item nodeId="node-0xd23fb00">
+  <item nodeId="node-0x75da820">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">
 
@@ -317,10 +317,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2dbc10" />
+      <child nodeId="node-0x75da890" />
     </children>
   </item>
-  <item nodeId="node-0xd2dbc10">
+  <item nodeId="node-0x75da890">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Your porch
 [Previous turn undone.]
@@ -330,10 +330,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd215680" />
+      <child nodeId="node-0x75da900" />
     </children>
   </item>
-  <item nodeId="node-0xd215680">
+  <item nodeId="node-0x75da900">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">That was a rhetorical question.
 
@@ -342,10 +342,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe484e90" />
+      <child nodeId="node-0x75da970" />
     </children>
   </item>
-  <item nodeId="node-0xe484e90">
+  <item nodeId="node-0x75da970">
     <command xml:space="preserve">take umbrella</command>
     <result xml:space="preserve">Taken.
 
@@ -354,10 +354,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd274b30" />
+      <child nodeId="node-0x75da9e0" />
     </children>
   </item>
-  <item nodeId="node-0xd274b30">
+  <item nodeId="node-0x75da9e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 backyard
@@ -368,10 +368,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd202510" />
+      <child nodeId="node-0x75daa50" />
     </children>
   </item>
-  <item nodeId="node-0xd202510">
+  <item nodeId="node-0x75daa50">
     <command xml:space="preserve">x potatoes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -380,10 +380,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2e56d0" />
+      <child nodeId="node-0x75daac0" />
     </children>
   </item>
-  <item nodeId="node-0xd2e56d0">
+  <item nodeId="node-0x75daac0">
     <command xml:space="preserve">take potatoes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -392,10 +392,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe43c1c0" />
+      <child nodeId="node-0x75dab30" />
     </children>
   </item>
-  <item nodeId="node-0xe43c1c0">
+  <item nodeId="node-0x75dab30">
     <command xml:space="preserve">x potatoe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -404,10 +404,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd221350" />
+      <child nodeId="node-0x75daba0" />
     </children>
   </item>
-  <item nodeId="node-0xd221350">
+  <item nodeId="node-0x75daba0">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -416,10 +416,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe452520" />
+      <child nodeId="node-0x75da5c0" />
     </children>
   </item>
-  <item nodeId="node-0xe452520">
+  <item nodeId="node-0x75da5c0">
     <command xml:space="preserve">take potatoe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -428,10 +428,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2bf2c0" />
+      <child nodeId="node-0x75da630" />
     </children>
   </item>
-  <item nodeId="node-0xd2bf2c0">
+  <item nodeId="node-0x75da630">
     <command xml:space="preserve">x stream</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -440,10 +440,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x1567e8f0" />
+      <child nodeId="node-0x75da6a0" />
     </children>
   </item>
-  <item nodeId="node-0x1567e8f0">
+  <item nodeId="node-0x75da6a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 street
@@ -456,10 +456,10 @@ You can see a stepladder here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x15363350" />
+      <child nodeId="node-0x75dae50" />
     </children>
   </item>
-  <item nodeId="node-0x15363350">
+  <item nodeId="node-0x75dae50">
     <command xml:space="preserve">x stepladder</command>
     <result xml:space="preserve">Who throws out a stepladder? These things never break.
 
@@ -468,10 +468,10 @@ You can see a stepladder here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4c0220" />
+      <child nodeId="node-0x75daec0" />
     </children>
   </item>
-  <item nodeId="node-0xe4c0220">
+  <item nodeId="node-0x75daec0">
     <command xml:space="preserve">take stepladder</command>
     <result xml:space="preserve">Taken.
 
@@ -480,10 +480,10 @@ You can see a stepladder here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x14a167d0" />
+      <child nodeId="node-0x75daf30" />
     </children>
   </item>
-  <item nodeId="node-0x14a167d0">
+  <item nodeId="node-0x75daf30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 park
@@ -496,10 +496,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd288280" />
+      <child nodeId="node-0x75dafa0" />
     </children>
   </item>
-  <item nodeId="node-0xd288280">
+  <item nodeId="node-0x75dafa0">
     <command xml:space="preserve">x locket</command>
     <result xml:space="preserve">This must be the crazy cat lady&apos;s fabled locket. I wonder if she actually threw cats at it? She might give you something nice in return for this.
 
@@ -508,10 +508,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd28ea20" />
+      <child nodeId="node-0x75db010" />
     </children>
   </item>
-  <item nodeId="node-0xd28ea20">
+  <item nodeId="node-0x75db010">
     <command xml:space="preserve">take locket</command>
     <result xml:space="preserve">You can&apos;t reach the locket, as the tree is too high.
 
@@ -520,10 +520,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd26fea0" />
+      <child nodeId="node-0x75db080" />
     </children>
   </item>
-  <item nodeId="node-0xd26fea0">
+  <item nodeId="node-0x75db080">
     <command xml:space="preserve">x crazy cat lady</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -532,10 +532,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd23a3a0" />
+      <child nodeId="node-0x75db0f0" />
     </children>
   </item>
-  <item nodeId="node-0xd23a3a0">
+  <item nodeId="node-0x75db0f0">
     <command xml:space="preserve">x tree</command>
     <result xml:space="preserve">This tree is shockingly tall, but it is also extremely thin and wobbles if you rock it. You see an object stuck on a high branch. Local legend has it that the crazy cat lady throws cats up into the tree to try knock something out of it. She has a very good throwing arm.
 
@@ -546,10 +546,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4d5aa0" />
+      <child nodeId="node-0x75db160" />
     </children>
   </item>
-  <item nodeId="node-0xe4d5aa0">
+  <item nodeId="node-0x75db160">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">park
 A huge tree takes up the south end of the park. Many things have been lost in said tree. The crazy cat lady loves comes here on her off time.
@@ -561,10 +561,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4beaf0" />
+      <child nodeId="node-0x75db1d0" />
     </children>
   </item>
-  <item nodeId="node-0xe4beaf0">
+  <item nodeId="node-0x75db1d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -573,10 +573,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2876a0" />
+      <child nodeId="node-0x75db240" />
     </children>
   </item>
-  <item nodeId="node-0xd2876a0">
+  <item nodeId="node-0x75db240">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -585,10 +585,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x1c50b7a0" />
+      <child nodeId="node-0x75db2b0" />
     </children>
   </item>
-  <item nodeId="node-0x1c50b7a0">
+  <item nodeId="node-0x75db2b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 street
@@ -599,10 +599,10 @@ This street heads west to the park and north to the bridge.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x15638860" />
+      <child nodeId="node-0x75db320" />
     </children>
   </item>
-  <item nodeId="node-0x15638860">
+  <item nodeId="node-0x75db320">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 backyard
@@ -613,10 +613,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd210140" />
+      <child nodeId="node-0x75db390" />
     </children>
   </item>
-  <item nodeId="node-0xd210140">
+  <item nodeId="node-0x75db390">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 street
@@ -627,10 +627,10 @@ This street heads west to the park and north to the bridge.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xc5aab30" />
+      <child nodeId="node-0x75db400" />
     </children>
   </item>
-  <item nodeId="node-0xc5aab30">
+  <item nodeId="node-0x75db400">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 park
@@ -643,10 +643,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe473a60" />
+      <child nodeId="node-0x75db470" />
     </children>
   </item>
-  <item nodeId="node-0xe473a60">
+  <item nodeId="node-0x75db470">
     <command xml:space="preserve">x tree</command>
     <result xml:space="preserve">This tree is shockingly tall, but it is also extremely thin and wobbles if you rock it. You see an object stuck on a high branch. Local legend has it that the crazy cat lady throws cats up into the tree to try knock something out of it. She has a very good throwing arm.
 
@@ -657,10 +657,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd267420" />
+      <child nodeId="node-0x75db4e0" />
     </children>
   </item>
-  <item nodeId="node-0xd267420">
+  <item nodeId="node-0x75db4e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -669,10 +669,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x153cf6f0" />
+      <child nodeId="node-0x75db550" />
     </children>
   </item>
-  <item nodeId="node-0x153cf6f0">
+  <item nodeId="node-0x75db550">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -681,10 +681,10 @@ On the tree is a locket.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd26e390" />
+      <child nodeId="node-0x75dac10" />
     </children>
   </item>
-  <item nodeId="node-0xd26e390">
+  <item nodeId="node-0x75dac10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 street
@@ -695,10 +695,10 @@ This street heads west to the park and north to the bridge.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xc592790" />
+      <child nodeId="node-0x75dac80" />
     </children>
   </item>
-  <item nodeId="node-0xc592790">
+  <item nodeId="node-0x75dac80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 backyard
@@ -709,10 +709,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x15651070" />
+      <child nodeId="node-0x75dacf0" />
     </children>
   </item>
-  <item nodeId="node-0x15651070">
+  <item nodeId="node-0x75dacf0">
     <command xml:space="preserve">northwest</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -721,10 +721,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4a6e80" />
+      <child nodeId="node-0x75dad60" />
     </children>
   </item>
-  <item nodeId="node-0xe4a6e80">
+  <item nodeId="node-0x75dad60">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -733,10 +733,10 @@ This is your yard, located directly across the stream from Mr. Schnitzel&apos;s 
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x157abcc0" />
+      <child nodeId="node-0x75dadd0" />
     </children>
   </item>
-  <item nodeId="node-0x157abcc0">
+  <item nodeId="node-0x75dadd0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 street
@@ -747,10 +747,10 @@ This street heads west to the park and north to the bridge.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd231400" />
+      <child nodeId="node-0x75db5c0" />
     </children>
   </item>
-  <item nodeId="node-0xd231400">
+  <item nodeId="node-0x75db5c0">
     <command xml:space="preserve">northwest</command>
     <result xml:space="preserve">
 bridge
@@ -761,10 +761,10 @@ This bridge crosses the stream by your house. You are next to enemy territory. A
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe488040" />
+      <child nodeId="node-0x75db630" />
     </children>
   </item>
-  <item nodeId="node-0xe488040">
+  <item nodeId="node-0x75db630">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 crazy cat lady&apos;s house
@@ -779,10 +779,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe46b470" />
+      <child nodeId="node-0x75db6a0" />
     </children>
   </item>
-  <item nodeId="node-0xe46b470">
+  <item nodeId="node-0x75db6a0">
     <command xml:space="preserve">x cats</command>
     <result xml:space="preserve">There are so many cats. You can&apos;t even count them all. Let&apos;s see 1,2,3... stop wasting time.
 
@@ -791,10 +791,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe408010" />
+      <child nodeId="node-0x75db710" />
     </children>
   </item>
-  <item nodeId="node-0xe408010">
+  <item nodeId="node-0x75db710">
     <command xml:space="preserve"> x crazy cat lady</command>
     <result xml:space="preserve">The crazy cat lady, the most feared creature in the neighborhood. You are not sure if you can trust her.
 
@@ -803,10 +803,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2552d0" />
+      <child nodeId="node-0x75db780" />
     </children>
   </item>
-  <item nodeId="node-0xd2552d0">
+  <item nodeId="node-0x75db780">
     <command xml:space="preserve">talk to crazy cat lady</command>
     <result xml:space="preserve">Vat do you vant?!.
 
@@ -815,10 +815,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x156a37a0" />
+      <child nodeId="node-0x75db7f0" />
     </children>
   </item>
-  <item nodeId="node-0x156a37a0">
+  <item nodeId="node-0x75db7f0">
     <command xml:space="preserve">ask about locket</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -827,10 +827,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe421a70" />
+      <child nodeId="node-0x75db860" />
     </children>
   </item>
-  <item nodeId="node-0xe421a70">
+  <item nodeId="node-0x75db860">
     <command xml:space="preserve">ask crazy cat lady about locket</command>
     <result xml:space="preserve">What locket?! I have not locket?! Locket is still stuck on tree! Stay away from locket, it is mine!.
 
@@ -839,10 +839,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd228280" />
+      <child nodeId="node-0x75db8d0" />
     </children>
   </item>
-  <item nodeId="node-0xd228280">
+  <item nodeId="node-0x75db8d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Das Mine Field
@@ -855,10 +855,10 @@ You can see a backdoor here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd213c80" />
+      <child nodeId="node-0x75db940" />
     </children>
   </item>
-  <item nodeId="node-0xd213c80">
+  <item nodeId="node-0x75db940">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 crazy cat lady&apos;s house
@@ -873,10 +873,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2d85f0" />
+      <child nodeId="node-0x75db9b0" />
     </children>
   </item>
-  <item nodeId="node-0xd2d85f0">
+  <item nodeId="node-0x75db9b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -885,10 +885,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd22d2d0" />
+      <child nodeId="node-0x75dba20" />
     </children>
   </item>
-  <item nodeId="node-0xd22d2d0">
+  <item nodeId="node-0x75dba20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -897,10 +897,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4be680" />
+      <child nodeId="node-0x75dba90" />
     </children>
   </item>
-  <item nodeId="node-0xe4be680">
+  <item nodeId="node-0x75dba90">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 bridge
@@ -911,10 +911,10 @@ This bridge crosses the stream by your house. You are next to enemy territory. A
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2aa210" />
+      <child nodeId="node-0x75dbb00" />
     </children>
   </item>
-  <item nodeId="node-0xd2aa210">
+  <item nodeId="node-0x75dbb00">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Schnitzel&apos;s house
@@ -927,10 +927,10 @@ Schnitzel is taking a break at a table drinking coffee.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4a4be0" />
+      <child nodeId="node-0x75dbb70" />
     </children>
   </item>
-  <item nodeId="node-0xe4a4be0">
+  <item nodeId="node-0x75dbb70">
     <command xml:space="preserve">x schnitzel</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -939,10 +939,10 @@ Schnitzel is taking a break at a table drinking coffee.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd264200" />
+      <child nodeId="node-0x75dbbe0" />
     </children>
   </item>
-  <item nodeId="node-0xd264200">
+  <item nodeId="node-0x75dbbe0">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -951,10 +951,10 @@ Schnitzel is taking a break at a table drinking coffee.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd204d10" />
+      <child nodeId="node-0x75dbc50" />
     </children>
   </item>
-  <item nodeId="node-0xd204d10">
+  <item nodeId="node-0x75dbc50">
     <command xml:space="preserve">x coffee</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -963,10 +963,10 @@ Schnitzel is taking a break at a table drinking coffee.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x1c5a21b0" />
+      <child nodeId="node-0x75dbcc0" />
     </children>
   </item>
-  <item nodeId="node-0x1c5a21b0">
+  <item nodeId="node-0x75dbcc0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -975,10 +975,10 @@ Schnitzel is taking a break at a table drinking coffee.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd21d5c0" />
+      <child nodeId="node-0x75dbd30" />
     </children>
   </item>
-  <item nodeId="node-0xd21d5c0">
+  <item nodeId="node-0x75dbd30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 bridge
@@ -989,10 +989,10 @@ This bridge crosses the stream by your house. You are next to enemy territory. A
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4976e0" />
+      <child nodeId="node-0x75dbda0" />
     </children>
   </item>
-  <item nodeId="node-0xe4976e0">
+  <item nodeId="node-0x75dbda0">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 crazy cat lady&apos;s house
@@ -1007,10 +1007,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4ad010" />
+      <child nodeId="node-0x75dbe10" />
     </children>
   </item>
-  <item nodeId="node-0xe4ad010">
+  <item nodeId="node-0x75dbe10">
     <command xml:space="preserve">take cats</command>
     <result xml:space="preserve">You don&apos;t want the cat.
 
@@ -1019,10 +1019,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4a3040" />
+      <child nodeId="node-0x75dbe80" />
     </children>
   </item>
-  <item nodeId="node-0xe4a3040">
+  <item nodeId="node-0x75dbe80">
     <command xml:space="preserve">take cat</command>
     <result xml:space="preserve">I don&apos;t suppose the crazy cat lady would care for that.
 
@@ -1031,10 +1031,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x157b1900" />
+      <child nodeId="node-0x75dbef0" />
     </children>
   </item>
-  <item nodeId="node-0x157b1900">
+  <item nodeId="node-0x75dbef0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a stepladder
@@ -1045,10 +1045,10 @@ You can also see Cats here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe43e320" />
+      <child nodeId="node-0x75dbf60" />
     </children>
   </item>
-  <item nodeId="node-0xe43e320">
+  <item nodeId="node-0x75dbf60">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 bridge
@@ -1059,10 +1059,10 @@ This bridge crosses the stream by your house. You are next to enemy territory. A
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd281430" />
+      <child nodeId="node-0x75dbfd0" />
     </children>
   </item>
-  <item nodeId="node-0xd281430">
+  <item nodeId="node-0x75dbfd0">
     <command xml:space="preserve">x stream</command>
     <result xml:space="preserve">The water makes a serene babbling sound below. You used to play down by the river as a kid.
 
@@ -1071,10 +1071,10 @@ This bridge crosses the stream by your house. You are next to enemy territory. A
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x1c5f7810" />
+      <child nodeId="node-0x75dc040" />
     </children>
   </item>
-  <item nodeId="node-0x1c5f7810">
+  <item nodeId="node-0x75dc040">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">
 river
@@ -1085,10 +1085,10 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe417c40" />
+      <child nodeId="node-0x75dc0b0" />
     </children>
   </item>
-  <item nodeId="node-0xe417c40">
+  <item nodeId="node-0x75dc0b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Das Mine Field
@@ -1101,10 +1101,10 @@ You can see a backdoor here.
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x1c5bdd80" />
+      <child nodeId="node-0x75dc120" />
     </children>
   </item>
-  <item nodeId="node-0x1c5bdd80">
+  <item nodeId="node-0x75dc120">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 river
@@ -1115,10 +1115,10 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2ba480" />
+      <child nodeId="node-0x75dc190" />
     </children>
   </item>
-  <item nodeId="node-0xd2ba480">
+  <item nodeId="node-0x75dc190">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1127,10 +1127,10 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe4ebee0" />
+      <child nodeId="node-0x75dc200" />
     </children>
   </item>
-  <item nodeId="node-0xe4ebee0">
+  <item nodeId="node-0x75dc200">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1139,10 +1139,10 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xe40ad10" />
+      <child nodeId="node-0x75dc270" />
     </children>
   </item>
-  <item nodeId="node-0xe40ad10">
+  <item nodeId="node-0x75dc270">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1151,10 +1151,10 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x1f1489c0" />
+      <child nodeId="node-0x75dc2e0" />
     </children>
   </item>
-  <item nodeId="node-0x1f1489c0">
+  <item nodeId="node-0x75dc2e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1163,10 +1163,10 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2d2040" />
+      <child nodeId="node-0x75dc350" />
     </children>
   </item>
-  <item nodeId="node-0xd2d2040">
+  <item nodeId="node-0x75dc350">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">river
 This river is a hidden little shortcut between the bridge, Das Mine field and your backyard. The river is below the bridge. The river is south of Das Mine Field and North of the backyard.
@@ -1176,10 +1176,10 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0x1c042c00" />
+      <child nodeId="node-0x75dc3c0" />
     </children>
   </item>
-  <item nodeId="node-0x1c042c00">
+  <item nodeId="node-0x75dc3c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1188,10 +1188,10 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
     <children>
-      <child nodeId="node-0xd2e4b50" />
+      <child nodeId="node-0x75dc430" />
     </children>
   </item>
-  <item nodeId="node-0xd2e4b50">
+  <item nodeId="node-0x75dc430">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1200,7 +1200,7 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>YES</changed>
     <temporary score="89">YES</temporary>
   </item>
-  <item nodeId="node-0x1b3a02a0">
+  <item nodeId="node-0x75dc4a0">
     <command xml:space="preserve">take umbrella</command>
     <result xml:space="preserve">Taken.
 
@@ -1209,11 +1209,11 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>NO</changed>
     <temporary score="135">YES</temporary>
     <children>
-      <child nodeId="node-0x14cd0c70" />
-      <child nodeId="node-0x7e1fc10" />
+      <child nodeId="node-0x75dc900" />
+      <child nodeId="node-0x75dc510" />
     </children>
   </item>
-  <item nodeId="node-0x7e1fc10">
+  <item nodeId="node-0x75dc510">
     <command xml:space="preserve">x veranda</command>
     <result xml:space="preserve">This veranda is the only thing between your head and a proper mashing.
 
@@ -1222,10 +1222,10 @@ This river is a hidden little shortcut between the bridge, Das Mine field and yo
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0xe4dd330" />
+      <child nodeId="node-0x75dc580" />
     </children>
   </item>
-  <item nodeId="node-0xe4dd330">
+  <item nodeId="node-0x75dc580">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Your porch
 This is your dinky wooden porch. Due to the veranda, it was the only part of your house that was safe from the raining potatoes. You ran here as soon as the spuds went flying. A vase full of umbrellas sits by the door. Your yard is to the west.
@@ -1235,10 +1235,10 @@ This is your dinky wooden porch. Due to the veranda, it was the only part of you
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0xd221410" />
+      <child nodeId="node-0x75dc5f0" />
     </children>
   </item>
-  <item nodeId="node-0xd221410">
+  <item nodeId="node-0x75dc5f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 backyard
@@ -1251,10 +1251,10 @@ You can see a potatoes here.
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x157ce150" />
+      <child nodeId="node-0x75dc660" />
     </children>
   </item>
-  <item nodeId="node-0x157ce150">
+  <item nodeId="node-0x75dc660">
     <command xml:space="preserve">x potatoes</command>
     <result xml:space="preserve">You see nothing special about the potatoes.
 
@@ -1263,10 +1263,10 @@ You can see a potatoes here.
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0xe4ce420" />
+      <child nodeId="node-0x75dc6d0" />
     </children>
   </item>
-  <item nodeId="node-0xe4ce420">
+  <item nodeId="node-0x75dc6d0">
     <command xml:space="preserve">take potatoes</command>
     <result xml:space="preserve">Taken.
 
@@ -1275,10 +1275,10 @@ You can see a potatoes here.
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0xe409d30" />
+      <child nodeId="node-0x75dc740" />
     </children>
   </item>
-  <item nodeId="node-0xe409d30">
+  <item nodeId="node-0x75dc740">
     <command xml:space="preserve">x potatoes</command>
     <result xml:space="preserve">You see nothing special about the potatoes.
 
@@ -1287,10 +1287,10 @@ You can see a potatoes here.
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0xe47c850" />
+      <child nodeId="node-0x75dc7b0" />
     </children>
   </item>
-  <item nodeId="node-0xe47c850">
+  <item nodeId="node-0x75dc7b0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1299,10 +1299,10 @@ You can see a potatoes here.
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0xe411ee0" />
+      <child nodeId="node-0x75dc820" />
     </children>
   </item>
-  <item nodeId="node-0xe411ee0">
+  <item nodeId="node-0x75dc820">
     <command xml:space="preserve">x potatoe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1311,10 +1311,10 @@ You can see a potatoes here.
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x11bb2d70" />
+      <child nodeId="node-0x75dc890" />
     </children>
   </item>
-  <item nodeId="node-0x11bb2d70">
+  <item nodeId="node-0x75dc890">
     <command xml:space="preserve">x potatoes</command>
     <result xml:space="preserve">You see nothing special about the potatoes.
 
@@ -1323,7 +1323,7 @@ You can see a potatoes here.
     <changed>NO</changed>
     <temporary score="121">YES</temporary>
   </item>
-  <item nodeId="node-0x14cd0c70">
+  <item nodeId="node-0x75dc900">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 backyard
@@ -1336,11 +1336,11 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="135">YES</temporary>
     <children>
-      <child nodeId="node-0x14c2f000" />
-      <child nodeId="node-0xc553540" />
+      <child nodeId="node-0x75dcac0" />
+      <child nodeId="node-0x75dc970" />
     </children>
   </item>
-  <item nodeId="node-0xc553540">
+  <item nodeId="node-0x75dc970">
     <command xml:space="preserve">x potato</command>
     <result xml:space="preserve">You see nothing special about the potato.
 
@@ -1349,10 +1349,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="135">YES</temporary>
     <children>
-      <child nodeId="node-0x32d0e0" />
+      <child nodeId="node-0x75dc9e0" />
     </children>
   </item>
-  <item nodeId="node-0x32d0e0">
+  <item nodeId="node-0x75dc9e0">
     <command xml:space="preserve">eat potato</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -1361,10 +1361,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="135">YES</temporary>
     <children>
-      <child nodeId="node-0x1c560630" />
+      <child nodeId="node-0x75dca50" />
     </children>
   </item>
-  <item nodeId="node-0x1c560630">
+  <item nodeId="node-0x75dca50">
     <command xml:space="preserve">x brooke</command>
     <result xml:space="preserve">The water gurgles down.
 
@@ -1373,7 +1373,7 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="134">YES</temporary>
   </item>
-  <item nodeId="node-0x14c2f000">
+  <item nodeId="node-0x75dcac0">
     <command xml:space="preserve">x potatoes</command>
     <result xml:space="preserve">You see nothing special about the potatoes.
 
@@ -1382,10 +1382,10 @@ You can see a potato here.
     <changed>NO</changed>
     <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0x12a094e0" />
+      <child nodeId="node-0x75dcb30" />
     </children>
   </item>
-  <item nodeId="node-0x12a094e0">
+  <item nodeId="node-0x75dcb30">
     <command xml:space="preserve">x potatoe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1394,10 +1394,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="127">YES</temporary>
     <children>
-      <child nodeId="node-0xfa1af80" />
+      <child nodeId="node-0x75dcba0" />
     </children>
   </item>
-  <item nodeId="node-0xfa1af80">
+  <item nodeId="node-0x75dcba0">
     <command xml:space="preserve">x potato</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1406,7 +1406,7 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="126">YES</temporary>
   </item>
-  <item nodeId="node-0x37c070">
+  <item nodeId="node-0x75dcc10">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1415,10 +1415,10 @@ You can see a potato here.
     <changed>NO</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x37c0c0" />
+      <child nodeId="node-0x75dcc80" />
     </children>
   </item>
-  <item nodeId="node-0x37c0c0">
+  <item nodeId="node-0x75dcc80">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 yard
@@ -1431,10 +1431,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x37c110" />
+      <child nodeId="node-0x75dccf0" />
     </children>
   </item>
-  <item nodeId="node-0x37c110">
+  <item nodeId="node-0x75dccf0">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">Taken.
 
@@ -1443,10 +1443,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x3c3a90" />
+      <child nodeId="node-0x75dcd60" />
     </children>
   </item>
-  <item nodeId="node-0x3c3a90">
+  <item nodeId="node-0x75dcd60">
     <command xml:space="preserve">take potato</command>
     <result xml:space="preserve">You already have that.
 
@@ -1455,10 +1455,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x3c3b00" />
+      <child nodeId="node-0x75dcdd0" />
     </children>
   </item>
-  <item nodeId="node-0x3c3b00">
+  <item nodeId="node-0x75dcdd0">
     <command xml:space="preserve">take another potatoe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1467,10 +1467,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x3c3b70" />
+      <child nodeId="node-0x75dce40" />
     </children>
   </item>
-  <item nodeId="node-0x3c3b70">
+  <item nodeId="node-0x75dce40">
     <command xml:space="preserve">take another potato</command>
     <result xml:space="preserve">You already have that.
 
@@ -1479,10 +1479,10 @@ You can see a potato here.
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x3c3c60" />
+      <child nodeId="node-0x75dceb0" />
     </children>
   </item>
-  <item nodeId="node-0x3c3c60">
+  <item nodeId="node-0x75dceb0">
     <command xml:space="preserve">eat potato</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 

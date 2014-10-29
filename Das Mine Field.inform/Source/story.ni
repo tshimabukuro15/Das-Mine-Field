@@ -4,9 +4,9 @@ When play begins: say "Congratulations. you are now the district safety martial 
 
 Your porch is a room. "This is your dinky wooden porch. Due to the veranda, it was the only part of your house that was safe from the raining potatoes. You ran here as soon as the spuds went flying. A vase full of umbrellas sits by the door. Your yard is to the west." 
 
-Your door is scenery in the porch. The description is "You locked yourself out, congradulations!"
+The screen door is scenery in the porch. The description is "You locked yourself out, congradulations!"
 
-The vase is scenery in the porch. The description is "A pretty vase full of umbrellas."
+The vase is scenery. The vase is in the porch. The description is "A pretty vase full of umbrellas."
 
 The umbrella is a thing. The umbrella is in the vase. "It's an umbrella. An extremely sturdy and durable umbrella. It stops things from falling on your head. I wonder when you could ever use something like tha.. Just take the umbrella."
 
@@ -19,19 +19,19 @@ Instead of going to the backyard when the player does not have the umbrella:
 		
 The backyard is west of the porch. The backyard is east of Angl's yard. The backyard is north of the street. The backyard is a room. "This is your yard, located directly across the brooke from Mr. Schnitzel's  field. It is currently littered with potatoes. Your porch is to the east, the street is to the south and Mr. Angl's yard is to the west."
 
-The brooke is scenery. the brooke is in the backyard. The description is "The water gurgles down."
+The brooke is scenery. The brooke is in the backyard. The description is "The water gurgles down."
 
-The potato is a thing in the backyard. The description is "This potato did not splat on impact. It is defective to not have splated. It is worthless."
+The potato is a thing. The potatoe is in the backyard. The description is "This potato did not splat on impact. It is defective to not have splated. It is worthless."
 
 Understand "potato", "the potato", and "the potatoes" as "[potatoes]"
 
  Angl's yard is a room. Angl's yard is west of the backyard. The description is "Angl's yard and house are also covered in potatoes. Casualties of war. You can hear him silently muttering to himself from a safe spot on the second floor."
 
-The windowsill is scenery in Angl's yard. The description is "Angle is hiding nearby. He's muttering a steady stream of words with an angry intonation."
+The windowsill is scenery. The windowsill is in Angl's yard. The description is "Angle is hiding nearby. He's muttering a steady stream of words with an angry intonation."
 
-The street is south of the backyard. The street is east of the park. The street is southeast of the bridge. The street is a room. The description is "This street heads west to the park and north to the bridge."
+The street is south of the backyard. The street is east of the park. The street is southeast of the bridge. The street is a room. The description is "This street heads west to the park, north to the backyard, and northwest to the bridge."
 
-The stepladder is a thing. The stepladder is in the street. The description is "Who throws out a stepladder? These things never break."
+The stepladder is a thing. The stepladder is in the street. The description is "Who throws out a stepladder? These things never break. It's about four feet tall."
 
 The park is west of the street. The park is a room. The description is "A huge tree takes up the south end of the park. Many things have been lost in said tree. The crazy cat lady loves comes here on her off time."
 
@@ -53,7 +53,7 @@ Pidgeon is an animal. The description is "This pidgeon is completely unafraid of
 
 Understand "grab" as "[take]"
 
-The tree is a scenery in the park. The description is "This tree is shockingly tall, but it is also extremely thin and wobbles if you rock it. You see an object stuck on a high branch. Local legend has it that the crazy cat lady throws cats up into the tree to try knock something out of it. She has a very good throwing arm."
+The tree is a scenery in the park. The description is "This tree is shockingly tall, but it is also extremely thin and wobbles if you rock it. Local legend has it that the crazy cat lady throws cats up into the tree to try knock something out of it. She has a very good throwing arm."
 
 Instead of putting anything on the tree:
 say "You can't reach the top."
@@ -75,25 +75,43 @@ Instead of rocking the tree:
 	otherwise:
 		say "There's nothing else up there." [Code from Informhandbook]
 
+Instead of climbing the tree:
+say "It's tp thin and wobbly to climb."
+
 The bridge is a room. The bridge is northwest of the street. The bridge is southwest of the crazy cat lady's house. The bridge is west of Schnitzel's house. The description is "This bridge crosses the stream by your house. You are next to enemy territory. A stream flows underneath. Mr. Schnitzel's house is to the east, the crazy cat lady's house is to the North East, and the street is to the south."
 
 The stream is scenery in the bridge. The description is "The water makes a serene babbling sound below. You used to play down by the river as a kid."
 
 Schnitzel's house is a room. Schnitzel's house is east of the bridge.  The description is "Mr. Schnitzel's house, the citidel of evil. It smells of potatoes and death. Mr. Schnitzel is pacing around muttering to himself whilst holding a potato gun. You should probably leave before he notices you. The bridge is to the west."
 
-The crazy cat lady's house is a room. The crazy cat lady's house is north of the backdoor and northeast of the bridge. The description is "The house of the crazy cat lady. *Cue Lightning* The door was unlocked, so you headed inside. It's messy in here. The the bridge is to the southwest and the backdoor is to the south." The crazy cat lady is carrying a rusty key.
+The crazy cat lady's house is a room. The crazy cat lady's house is northeast of the bridge. The description is "The house of the crazy cat lady. *Cue Lightning* The door was unlocked, so you headed inside. It's messy in here. The the bridge is to the southwest and the Das Mine Field is to the south." 
 
-The backdoor is south of the crazy cat ladies house and north of Das Mine Field. The backdoor is a door. The backdoor is lockable and locked. The description is "This door is extremely old and weathered."
+The backdoor is north of the Das Mine Field and south of the crazy cat lady's house. The backdoor is a door. The backdoor is lockable and locked. The rusty key unlocks
+the backdoor. The description is "This door is extremely old and weathered. It leads to Das Mine Field."
 
-The crazy cat lady is holding the rusty key. Rusty key is a thing. The rusty key unlocks the backdoor. The description is "It's a rusty key."
 
-Das Mine Field is a room. Das Mine Field is south of the backdoor and east of Schnitzel's house. The description is "Schnitzel's field. A worn out sign reading Das Mine Field hangs on the fence. Legend has it that back when he was younger, Mr. Schnitzel hid dozens of landmines on the field for no apparent reason. The slightest of electric shocks coud set them off. The three potato launchers are facing towards your house, Angls, and the cat lady's unmanned."
+Before going through the backdoor:
+	if the backdoor is closed:
+		if the backdoor is not locked:
+			say "(first opening the back door)[paragraph
+break]";
+			now the backdoor is open;
+		otherwise if the player carries the rusty key:
+			say "(first unlocking the backdoor with the
+rusty key, then opening the door)[paragraph break]";
+			now the backdoor is unlocked;
+			now the backdoor is open. [Infrom 7 pdf]
+
+
+The rusty key is a thing. 
+
+Das Mine Field is a room. Das Mine Field is east of Schnitzel's house. The description is "Schnitzel's field. A worn out sign reading Das Mine Field hangs on the fence. Legend has it that back when he was younger, Mr. Schnitzel hid dozens of landmines on the field for no apparent reason. The slightest of electric shocks coud set them off. The three potato launchers are facing towards your house, Angls, and the cat lady's unmanned. The crazy cat ladies house is to the north."
 
 The potato launcher is scenery. The description is "A silent sentry. An automated artillery unit designed with the sole purpose of raining hot spuddy death unto all those who stand in its way. The launching mechanism is powered by a giant rubber band."
 
 Rubber band is a thing on the potato launcher. The description is "The giant rubberband powering the potato launcher. Without its band, the potato launcher is powerless."
 
-Schnitel is a man in Schnitzel's House. "Schnitzel is taking a break at a table drinking coffee."The description of Schnitzel is "Grumpy old Mr. Schnitzel. He's muttering in to himself in German. Armed with a potato gun, he looks like he wants to something."
+Schnitzel is a man in Schnitzel's House. "Schnitzel is taking a break at a table drinking coffee."The description of Schnitzel is "Grumpy old Mr. Schnitzel. He's muttering in to himself in German. Armed with a potato gun, he looks like he wants to something."
 
 Instead of asking Schnitzel about something, say "Abort! abort! Schnitzel is the enemy! He's too dangerous!"
 
@@ -130,7 +148,7 @@ say "Vat do you vant?!."
 Understand "locket", "the locket", and "her locket" as "[locket]"
 
 Instead of asking the crazy cat lady about "[locket]":
-say "What locket?! I have not locket?! Locket is still stuck on tree! Stay away from locket, it is mine!."
+say "What locket?! I have not locket?! Locket is still stuck on tree! Stay away from locket, it is mine! Just because I am to frail to shake tree!."
 
 Understand "cats", "the cats", and "her cats" as "[cats]"
 
@@ -144,6 +162,10 @@ say "The cat lady smiles, snatches the locket from you, and walks off. She soon 
 remove the locket from play.
 
 Cats are animals. The cats are in the crazy cat lady's house. The description is "There are so many cats. You can't even count them all. Let's see 1,2,3... stop wasting time."
+
+Coffee is scenery in Schnitzel's house. The description is "Mr. Schnitzel's coffee. It's very black."
+
+Potato gun is scenery in Schnitzel's house. The description is "A custom gun made to fire potatoes. Actual fire arms are not allowed on the property."
 
 Instead of taking the cats: say "You don't want the cat."
 
@@ -162,3 +184,12 @@ An every turn rule:
 	if the player is carrying the rubber band:
 		if the player is in the the crazy cat lady's house:
 			end the story finally saying "Mr. Schnitzel has finally been stopped. His tuber powered siege machines our out of starch and his retirement fund is out of money. The local pidgeons have started eating the potatoes off of everyone's houses, and the crazy cat lady is still insane. Today was a pretty good day."
+			
+An every turn rule:
+	if the player is carrying the rubber band:
+		if the player is carrying the potato:
+			if the player is carrying the strange device:
+				If the player is carrying the stepladder:
+					if the player is in the backyard:
+						end the story finally saying "Upon returning to the yard Angle starts yelling instructions to you. While rummaging through the trash, he found the instructions for building a home made potato launcher. Combining the objects you've found in your jounery, you pull back on the rubberband and put the potato device in place. Angling both the rubberband and the ladder you aim... and fire!
+				The potato hits a land mine and the following explosion is quite grand. Das Mine Field becomes a pillar of fire. I guess Mr. Schnitzel really did have land mines burried in the field."			
